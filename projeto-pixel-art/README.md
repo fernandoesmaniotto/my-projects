@@ -1,3 +1,5 @@
+### Objetivos do projeto.
+
 Neste projeto o nosso desafio era juntar os 3 elementos para uma página web com os conceitos básicos de HTML, CSS e JavaScript e fazer essa página funcionar.
 
 Em seguida segue instruções requisitos para a realização do projeto que nos foi passado pela Trybe.

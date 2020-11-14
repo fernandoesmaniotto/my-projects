@@ -1,4 +1,6 @@
-Neste projeto a missão era criar uma página web com o intuito de criar uma lista de afazeres utilizando os elementos de HTML, CSS e JavaScript. Esta lista tinham alguns requesitos em que deveria ser possível salvar alterações no Storage e ser capaz de manipular os dados da lista dinâmicamente.
+### Objetivos do projeto.
+
+Neste projeto o objetivo era criar uma página web com o intuito de criar uma lista de afazeres utilizando os elementos de HTML, CSS e JavaScript. Esta lista tinham alguns requesitos em que deveria ser possível salvar alterações no Storage e ser capaz de manipular os dados da lista dinâmicamente.
 
 Em seguida segue instruções requisitos para a realização do projeto que nos foi passado pela Trybe.
 

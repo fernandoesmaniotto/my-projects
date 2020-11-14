@@ -1,3 +1,5 @@
+### Objetivos do projeto.
+
 Este foi o meu primeiro projeto no curso, onde o objetivo era testar os princípios básicos de HTML e CSS. Nosso objetivo era montar uma página montando o código HTML desde o inicio, utilizando HTML Semântico para deixar a página mais acessível e utilizar funções básicas de CSS para estilizar a página.
 
 Em seguida segue instruções e os requisitos para a realização do projeto que nos foi passado pela Trybe.

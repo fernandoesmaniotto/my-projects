@@ -1,3 +1,5 @@
+### Objetivos do projeto.
+
 Este foi o segundo projeto proposto pela Trybe, nele podemos colocar em prática os conhecimentos adquiridos sobre JavaScript. Foi pedido que criassemos várias funções de diversos tipos com os conceitos básicos de JavaScript para testar e consolidar os conhecimentos da linguagem. 
 
 Em seguida segue instruções requisitos para a realização do projeto que nos foi passado pela Trybe.
