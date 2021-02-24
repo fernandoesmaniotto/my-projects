@@ -1,2 +1,2 @@
-# projetos
-Projetos sobre o desenvolvimento do meu aprendizado em desenvolvimento web.
+# Projetos
+Meus projetos feitos durante o meu aprendizado sobre desenvolvimento web na Trybe. 🚀🚀
