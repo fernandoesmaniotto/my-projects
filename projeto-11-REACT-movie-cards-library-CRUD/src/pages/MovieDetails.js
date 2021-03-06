@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -38,18 +39,22 @@ class MovieDetails extends Component {
       { imagePath, subtitle, storyline, genre, rating, title, id }, status } = this.state;
     if (!status) { return (<Loading />); }
     return (
-      <div data-testid="movie-details">
-        <img alt="Movie Cover" src={ `../${imagePath}` } />
-        <p>{ `Title: ${title}` }</p>
-        <p>{ `Subtitle: ${subtitle}` }</p>
-        <p>{ `Storyline: ${storyline}` }</p>
-        <p>{ `Genre: ${genre}` }</p>
-        <p>{ `Rating: ${rating}` }</p>
-        <Link to="/">VOLTAR</Link>
-        <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
-        <Link to="/" onClick={ () => this.deleteMovie(id) }>
-          DELETAR
-        </Link>
+      <div className="movie-details-content">
+        <div data-testid="movie-details" className="movie-card-details">
+          <img alt="Movie Cover" src={ `../${imagePath}` } />
+          <p>{ `Title: ${title}` }</p>
+          <p>{ `Subtitle: ${subtitle}` }</p>
+          <p>{ `Storyline: ${storyline}` }</p>
+          <p>{ `Genre: ${genre}` }</p>
+          <p>{ `Rating: ${rating}` }</p>
+          <div className="movie-details-btn-content">
+            <Link className="movie-details-btn" to="/">VOLTAR</Link>
+            <Link className="movie-details-btn" to={ `/movies/${id}/edit` }>EDITAR</Link>
+            <Link className="movie-details-btn" to="/" onClick={ () => this.deleteMovie(id) }>
+              DELETAR
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
